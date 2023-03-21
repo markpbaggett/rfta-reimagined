@@ -1,7 +1,7 @@
 {
   "prod": {
     "label": { "none": ["UTK navPlace"] },
-    "collection": "https://gist.githubusercontent.com/markpbaggett/179ef6b55e5cc5892b86ae0a0c0e217a/raw/0d51915b1beb0e52eb9db9c62135340b6de35c32/navplace.json",
+    "collection": "https://gist.githubusercontent.com/markpbaggett/d39d4819ccdf89c1e082ad3d937ea5d7/raw/f92fcfcd5c458f8d18757004ed701440ab4b44ab/navplace.json",
     "featured": [
       "https://digital.lib.utk.edu/assemble/manifest/cDanielCartoon/774"
     ],
@@ -9,7 +9,7 @@
   },
   "dev": {
     "label": { "none": ["UTK navPlace"] },
-    "collection": "https://gist.githubusercontent.com/markpbaggett/179ef6b55e5cc5892b86ae0a0c0e217a/raw/0d51915b1beb0e52eb9db9c62135340b6de35c32/navplace.json",
+    "collection": "https://gist.githubusercontent.com/markpbaggett/d39d4819ccdf89c1e082ad3d937ea5d7/raw/f92fcfcd5c458f8d18757004ed701440ab4b44ab/navplace.json",
     "featured": [
       "https://digital.lib.utk.edu/assemble/manifest/cDanielCartoon/774"
     ],
