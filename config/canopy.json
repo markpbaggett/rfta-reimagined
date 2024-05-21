@@ -1,0 +1,71 @@
+{
+  "collection": "https://raw.githubusercontent.com/abolition-now/manifests/main/collections/blue.json",
+  "metadata": ["Subject"],
+  "featured": [
+    "https://raw.githubusercontent.com/abolition-now/manifests/main/blue_manifests/b0003_seoulsongpa.json
+  ],
+  "locales": [
+    {
+      "config": "locales/en.json",
+      "label": "English",
+      "lang": "en"
+    }
+  ],
+  "map": {
+    "defaultBounds": [[51.505, -0.09]],
+    "enabled": false,
+    "icon": {
+      "iconUrl": "images/marker-icon.png",
+      "iconSize": [24, 36],
+      "iconAnchor": [12, 36]
+    },
+    "tileLayers": [
+      {
+        "name": "OpenStreetMap",
+        "url": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+        "attribution": "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors"
+      }
+    ]
+  },
+  "search": {
+    "enabled": true,
+    "flexSearch": {
+      "charset": "latin:extra",
+      "optimize": true,
+      "tokenize": "strict",
+      "bidirectional": false,
+      "document": {
+        "index": [
+          {
+            "field": "label",
+            "tokenize": "full",
+            "resolution": 9,
+            "depth": 3,
+            "bidirectional": true
+          },
+          {
+            "field": "metadata",
+            "resolution": 2
+          },
+          {
+            "field": "summary",
+            "resolution": 1
+          }
+        ]
+      }
+    },
+    "index": {
+      "metadata": {
+        "enabled": true,
+        "all": false
+      },
+      "summary": {
+        "enabled": false
+      }
+    }
+  },
+  "theme": {
+    "defaultTheme": "light",
+    "toggleEnabled": false
+  }
+}
