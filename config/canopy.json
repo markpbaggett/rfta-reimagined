@@ -4,6 +4,10 @@
   "featured": [
     "https://raw.githubusercontent.com/abolition-now/manifests/main/blue_manifests/b0003_seoulsongpa.json"
   ],
+  "label": { "none": ["global policing archive"] },
+  "summary": {
+    "none": ["Brief description of the site and its contents."]
+  },
   "locales": [
     {
       "config": "locales/en.json",
