@@ -65,7 +65,10 @@
     }
   },
   "theme": {
-    "defaultTheme": "light",
-    "toggleEnabled": false
+    "defaultTheme": "dark",
+    "accentColor": "red",
+    "grayColor": "indigo",
+    "radius": "small",
+    "scaling": "100%"
   }
 }
