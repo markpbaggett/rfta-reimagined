@@ -7,6 +7,7 @@
   "label": { "none": ["global policing archive"] },
   "summary": {
     "none": ["Brief description of the site and its contents."]
+  },
   "theme": {
     "defaultTheme": "dark",
     "accentColor": "indigo",
